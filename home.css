@@ -1,0 +1,181 @@
+.content {
+        width: 200px;
+        height: 200px;
+        position: absolute; /*Can also be `fixed`*/
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        /*Solves a problem in which the content is being cut when the div is smaller than its' wrapper:*/
+        max-width: 100%;
+        max-height: 100%;
+        overflow: auto;
+}
+.content2 {
+        width: 1100px;
+        height: 500px;
+		background-color : #494C4B;
+        position: absolute; /*Can also be `fixed`*/
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        /*Solves a problem in which the content is being cut when the div is smaller than its' wrapper:*/
+        max-width: 100%;
+        max-height: 100%;
+        overflow: auto;
+		 border-radius: 0px 75px; 
+}
+
+.btnLogin {
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	width : 300px;
+	border-radius: 0px 75px;
+}
+
+.btnWebMaster {
+	background-color: #d9534f;
+	border: none;
+	color: white;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	width : 300px;
+	border-radius: 0px 75px;
+}
+
+.back {
+	background-color : #11AE79;
+}
+
+.img2 {
+	width : 40%;
+}
+
+.img3 {
+	width : 20%;
+}
+
+.lOut {
+	
+}
+
+.lOut:hover {
+	cursor : pointer;
+	text-decoration : underline;
+}
+
+.msg {
+	cursor : pointer;
+}
+
+
+
+
+.modal.fade .modal-bottom {
+  -webkit-transform: translate(0, 25%);
+  -o-transform: translate(0, 25%);
+  transform: translate(0, 25%);
+}
+.modal .modal-bottom {
+    margin:0;
+	margin-top:auto;
+	padding: 0;
+	position:absolute;
+	bottom:0;
+	top:auto;
+	left:auto;
+	right:0;
+	height:calc(55% + 160px); /* default height:45% its just for demo*/
+}
+
+.modal .modal-bottom>.modal-content{
+    
+    height:100%;
+    border-color: #fff;
+    border-radius:0;
+    margin:0;
+
+}
+.modal-bottom .modal-body{height: calc(100% - 140px);overflow-y:auto;}
+
+@media (min-width: 1px){
+	.modal-bottom {max-width: 100%;width:100%;}
+}
+/*Custume scroll bar*/
+.modal-bottom ::-webkit-scrollbar {width:8px}
+.modal-bottom ::-webkit-scrollbar-button {width:8px;height:5px}
+.modal-bottom ::-webkit-scrollbar-thumb:hover {background: #ccc}
+.modal-bottom ::-webkit-scrollbar-thumb {	background:#f1f1f1;border: thin solid white;border-radius: 10px}
+.modal-bottom ::-webkit-scrollbar-track {background: #fff;border:thin solid white}   
+
+
+
+
+.click {
+	text-decoration : underline; 
+	color : blue
+}
+
+.click:hover {
+	cursor : pointer
+}
+
+.bordern {
+	outline: none;
+}
+ /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+		display : none;
+      }
+
+      /* Optional: Makes the sample page fill the window. */
+      html,
+      body {
+        height: 100%;
+      }
+	  
+	  
+	  
+	  
+	  
+    .modal-dialog-full-width {
+        width: 100% !important;
+        height: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        max-width:none !important;
+
+    }
+
+    .modal-content-full-width  {
+        height: auto !important;
+        min-height: 100% !important;
+        border-radius: 0 !important;
+        background-color: #ececec !important 
+    }
+
+    .modal-header-full-width  {
+        border-bottom: 1px solid #9ea2a2 !important;
+    }
+
+    .modal-footer-full-width  {
+        border-top: 1px solid #9ea2a2 !important;
+    }
